@@ -314,3 +314,17 @@ h1,h2,h3 {
     height: auto;
 }
 
+  .modi {
+    text-align: justify;
+    margin-bottom: 2.5em; /* Espaciado al final de cada párrafo */
+  }
+
+  .video-container {
+    text-align: center;
+  }
+  img{
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+  }

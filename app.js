@@ -26,6 +26,22 @@ app.get('/servicios',(req, res)=>{
 app.get('/contacto',(req, res)=>{
     res.render('contacto')
 })
+app.get('/derivada',(req, res)=>{
+    res.render('derivada')
+})
+app.get('/analizador',(req, res)=>{
+    res.render('analizador')
+})
+app.get('/sintactico',(req, res)=>{
+    res.render('sintactico')
+})
+
+app.get('/app',(req, res)=>{
+    res.render('app')
+})
+app.get('/ejercicioscss',(req, res)=>{
+    res.render('ejercicioscss')
+})
 
 app.get('*',(req,res)=>{
     res.render('404')
