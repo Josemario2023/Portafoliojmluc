@@ -65,6 +65,9 @@ app.get('/appyargs', (req,res)=>{
     res.render('appyargs');
 })
 
+app.get('/roadtrip', (req,res)=>{
+    res.render('roadtrip');
+})
 
 app.get('*',(req,res)=>{
     res.render('404')
