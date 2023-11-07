@@ -32,6 +32,8 @@ body {
     max-width: 120rem;
     margin: 0 auto;
 }
+
+
 .boton {
     background-color: var(--secundario);
     color: var(--blanco);
@@ -328,3 +330,26 @@ h1,h2,h3 {
     display: block; 
     margin: 0 auto;
   }
+
+  .texto{
+    max-width: 90em;
+    margin: 0 3em;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.text-container {
+    flex: 1; 
+}
+.molde{
+   
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px; 
+}

@@ -42,6 +42,29 @@ app.get('/app',(req, res)=>{
 app.get('/ejercicioscss',(req, res)=>{
     res.render('ejercicioscss')
 })
+app.get('/Portafolio01',(req, res)=>{
+    res.render('Portafolio01')
+})
+
+app.get('/aplicacionc', (req,res)=>{
+    res.render('aplicacionc');
+})
+app.get('/javaaplicacion', (req,res)=>{
+    res.render('javaaplicacion');
+})
+
+app.get('/crudsimple', (req,res)=>{
+    res.render('crudsimple');
+})
+
+app.get('/mvc', (req,res)=>{
+    res.render('mvc');
+})
+
+app.get('/appyargs', (req,res)=>{
+    res.render('appyargs');
+})
+
 
 app.get('*',(req,res)=>{
     res.render('404')
