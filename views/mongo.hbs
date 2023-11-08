@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio jmluc</title>
+    <link rel="preload" href="/CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css"">
+</head>
+<body>
+    {{> header}}
+
+   {{> navbar}}
+
+    <br>
+        
+    <main class="contenedor sombra">
+        <h2>Conexión a MongoDB</h2>
+
+    <p class="texto">La finalidad de este proyecto es poder demostrar los conocimientos adquiridos para hacer una conexion a Mongo DB y haciendo consultas GET, POST, PUT, DELETE y PATCH </p>
+    <br>
+
+     <div class="image-container">
+            <img class="molde" src="/IMG/mogo1.png" alt="Imagen de Portafolio">
+            <br>
+            <div class="text-container">
+                <p class="texto">En esta primera imagen Se crea la version gratuita en mongo atlas para poder comenzar a realizar la conexion por medio de un cluster</p>
+            </div>
+     </div>
+
+<br>
+      <div class="image-container">
+            
+             <div class="text-container">
+                <p class="texto">En esta segunda imagen con la dirección creada en Mongo Atlas se realiza la conexión a MongoDB</p>
+           
+            </div>
+                        
+            <img class="molde" src="/IMG/mongo4.png" alt="Imagen de Portafolio">
+            <br>
+           
+     </div>
+<br>
+             <div class="image-container">
+                    <img class="molde" src="/IMG/mongo5.png" alt="Imagen de Portafolio">
+                    <br>
+                    <div class="text-container">
+                        <p class="texto">En esta  imagen se presenta la conexion correcta y agregando dicha dirección en el archivo .env</p>
+                    </div>
+            </div>
+<br>
+<p class="texto">A continuación se presenta un video de la conexion realizada:</p>
+        <div class="video-container">
+         <iframe src="https://drive.google.com/file/d/1GWs3C-8FOrAcpyNj2JpRv1w2qzAit3Qw/preview" width="640" height="360"></iframe>
+        </div>
+    </main>
+    <br>
+      <br>
+
+     {{> footer}}
+
+
+</body>
+</html>

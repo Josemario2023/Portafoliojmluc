@@ -69,6 +69,16 @@ app.get('/roadtrip', (req,res)=>{
     res.render('roadtrip');
 })
 
+app.get('/portafolio02', (req,res)=>{
+    res.render('portafolio02');
+})
+app.get('/rest', (req,res)=>{
+    res.render('rest');
+})
+app.get('/mongo', (req,res)=>{
+    res.render('mongo');
+})
+
 app.get('*',(req,res)=>{
     res.render('404')
 })
